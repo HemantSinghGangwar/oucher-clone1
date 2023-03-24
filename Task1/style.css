@@ -1,0 +1,87 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    height:100%;
+    width:100%;
+}
+.container1{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right,rgba(0, 251, 255, 0.447),rgba(27, 109, 127, 0.907));
+}
+.main-img{
+    position: absolute;
+    width: 100%;
+    bottom:0%;
+    z-index: 1;
+    }
+    .main-heading{
+        font-family:"montserrat";
+        font-weight: 900;
+        font-size: 400px;
+        color: white;
+        left: -40px;
+        top:0%;
+
+    }
+    .text{
+        position:absolute;
+        bottom: 20%;
+        left: 35%;
+        font-size: 20px;
+        text-align:center;
+        z-index: 100;
+        font-weight: 500;
+        color:white;
+        font-family: "montserrat";
+    }
+    .button{
+        position: absolute;
+        z-index: 100;
+        left: 40%;
+        bottom: 10%;
+        font-size: 20px;
+        color: white;
+        background-color: transparent;
+        border-radius: 50px;
+        border: 2px solid white;
+        font-weight: 600;
+        font-family: "montserrat";
+    }
+    h3{position: fixed;
+    top: 5%;
+   left: 5%;
+   font-size: 30px;
+   z-index: 100%;
+   color: white;
+   font-weight: 300;
+   font-family: "montserrat";
+}
+.navbar{
+    position: absolute;
+    font-size: 20px;
+    color: white;
+    font-family: "montserrat";
+    font-weight: 500;
+    top: 5%;
+    left:70%;
+    
+}
+.active>li{
+    float: left;
+    list-style: none;
+    padding: 10px 10px;
+
+}
+.serch-line{
+    position: absolute;
+
+}
+.active>ri-search-line{
+    position:absolute;
+}
+
+
